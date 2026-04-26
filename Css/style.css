@@ -1387,4 +1387,36 @@ input[type="checkbox"]:checked {
 {
   background-color: #BC470B ;
 }
+.last-btn 
+{
+  width: 100%;
+  border: none;
+  padding: 15px 0;
+  border-radius: 15px;
+  background-image:linear-gradient(90deg,#fb923c, #be4504, #fb923c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--main-transition);
+}
+.last-btn:hover  i 
+{
+  transform: translateX(10px);
+}
+.last-btn:hover 
+{
+   box-shadow: 0 10px 40px 4px rgba(224, 84, 24, 0.3); 
+   transform: translateY(-5px);
+}
+.last-btn  i 
+{
+  transition: var(--main-transition);
+} 
+.last-btn span 
+{
+  font-weight: 700;
+  font-size: 18px;
+    color: #fff;
+}
 /* form */
