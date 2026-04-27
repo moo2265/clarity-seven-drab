@@ -443,6 +443,11 @@
 
   /* title */
 
+ .title 
+ {
+  padding: 50px 0 !important;
+  gap: 20px !important;
+ }
   .title-head {
     display: flex;
     align-items: center;
