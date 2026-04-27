@@ -123,3 +123,25 @@ color: #364153;
         width: 100%;
     }
 }
+
+@media (max-width: 767px) 
+{
+  .k-box
+   {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+     .k-box > * 
+     {
+      width: 100%;
+     }
+}
+@media (min-width: 767px) 
+{
+ 
+     .k-box > * 
+     {
+      width: 33% ;
+     }
+}
